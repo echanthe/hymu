@@ -1,0 +1,315 @@
+digraph {
+  ratio=fill;
+  size="5.83,8.27!";
+ node [fontsize=16];
+  node [label="N", fillcolor="#FFFFFF", fontcolor="#000000", style=filled];
+  edge [style="solid"];
+  graph [splines="true", overlap="false"];
+  subgraph cluster_139888722862152 {
+    graph [
+      style="invis"
+    ];
+    node_15
+      [
+        fillcolor="#ff9933"
+        color="#ff8000"
+        shape="ellipse"
+        label="Deg₃\n(p₁₂, p₁₃, p₁₁)"
+      ];
+    node_5
+      [
+        style="filled, bold"
+        fontcolor="#ffffff"
+        label="Def₁\n(p₁₆, p₅, p₈)"
+        fillcolor="#ff3333"
+        color="#ff0000"
+        shape="ellipse"
+      ];
+    node_13
+      [
+        shape="rectangle"
+        label="t₁
+occ(ferm v₁₃)"
+      ];
+    node_0
+      [
+        fillcolor="#b3ffb3"
+        color="#00ff00"
+        shape="ellipse"
+        label="Nom₁\n(p₁, p₂, p₃)"
+      ];
+    node_10
+      [
+        shape="rectangle"
+        label="t₇
+occ(f₄)"
+      ];
+    node_3
+      [
+        shape="rectangle"
+        label="t₆
+occ(f₁)"
+      ];
+    node_21
+      [
+        shape="rectangle"
+        label="t₈
+occ(f₄)"
+      ];
+    node_11
+      [
+        style="filled, bold"
+        fontcolor="#ffffff"
+        label="Def₄\n(p₁₈, p₁₀, p₁₁)"
+        fillcolor="#ff3333"
+        color="#ff0000"
+        shape="ellipse"
+      ];
+    node_7
+      [
+        shape="rectangle"
+        label="t₁₄
+occ(f₀) and l₂ < 0.6"
+      ];
+    node_23
+      [
+        fillcolor="#ff9933"
+        color="#ff8000"
+        shape="ellipse"
+        label="Deg₂\n(p₉, p₁₀, p₁₁)"
+      ];
+    node_8
+      [
+        shape="rectangle"
+        label="t₁₁
+occ(f₀) and l₂ < 0.6"
+      ];
+    node_1
+      [
+        shape="rectangle"
+        label="t₃
+occ(ouvr v₁₃)"
+      ];
+    node_6
+      [
+        fillcolor="#b3ffb3"
+        color="#00ff00"
+        shape="ellipse"
+        label="Nom₂\n(p₄, p₅, p₆)"
+      ];
+    node_14
+      [
+        shape="rectangle"
+        label="t₁₀
+occ(f₄)"
+      ];
+    node_17
+      [
+        style="filled, bold"
+        fontcolor="#ffffff"
+        label="Def₃\n(p₁₉, p₁₃, p₁₁)"
+        fillcolor="#ff3333"
+        color="#ff0000"
+        shape="ellipse"
+      ];
+    node_16
+      [
+        shape="rectangle"
+        label="t₉
+occ(f₄)"
+      ];
+    node_19
+      [
+        style="filled, bold"
+        fontcolor="#ffffff"
+        label="Def₂\n(p₁₇, p₁₃, p₁₅)"
+        fillcolor="#ff3333"
+        color="#ff0000"
+        shape="ellipse"
+      ];
+    node_12
+      [
+        shape="rectangle"
+        label="t₂
+occ(ferm v₁₃)"
+      ];
+    node_9
+      [
+        shape="rectangle"
+        label="t₅
+occ(f₁)"
+      ];
+    node_20
+      [
+        shape="rectangle"
+        label="t₄
+occ(ouvr v₁₃)"
+      ];
+    node_18
+      [
+        fillcolor="#ff9933"
+        color="#ff8000"
+        shape="ellipse"
+        label="Deg₄\n(p₁₄, p₁₃, p₁₅)"
+      ];
+    node_22
+      [
+        shape="rectangle"
+        label="t₁₃
+occ(f₀) and l₂ < 0.6"
+      ];
+    node_2
+      [
+        fillcolor="#ff9933"
+        color="#ff8000"
+        shape="ellipse"
+        label="Deg₁\n(p₇, p₅, p₈)"
+      ];
+    node_4
+      [
+        shape="rectangle"
+        label="t₁₂
+occ(f₀) and l₂ < 0.6"
+      ];
+    node_23 -> node_12
+      [
+        arrowhead="normal"
+        label=""
+      ];
+    node_9 -> node_23
+      [
+        arrowhead="normal"
+        label=""
+      ];
+    node_4 -> node_17
+      [
+        arrowhead="normal"
+        label=""
+      ];
+    node_14 -> node_18
+      [
+        arrowhead="normal"
+        label=""
+      ];
+    node_13 -> node_6
+      [
+        arrowhead="normal"
+        label=""
+      ];
+    node_20 -> node_23
+      [
+        arrowhead="normal"
+        label=""
+      ];
+    node_0 -> node_9
+      [
+        arrowhead="normal"
+        label=""
+      ];
+    node_0 -> node_13
+      [
+        arrowhead="normal"
+        label=""
+      ];
+    node_18 -> node_7
+      [
+        arrowhead="normal"
+        label=""
+      ];
+    node_15 -> node_14
+      [
+        arrowhead="normal"
+        label=""
+      ];
+    node_12 -> node_15
+      [
+        arrowhead="normal"
+        label=""
+      ];
+    node_2 -> node_22
+      [
+        arrowhead="normal"
+        label=""
+      ];
+    node_6 -> node_1
+      [
+        arrowhead="normal"
+        label=""
+      ];
+    node_6 -> node_21
+      [
+        arrowhead="normal"
+        label=""
+      ];
+    node_16 -> node_18
+      [
+        arrowhead="normal"
+        label=""
+      ];
+    node_23 -> node_16
+      [
+        arrowhead="normal"
+        label=""
+      ];
+    node_8 -> node_11
+      [
+        arrowhead="normal"
+        label=""
+      ];
+    node_6 -> node_3
+      [
+        arrowhead="normal"
+        label=""
+      ];
+    node_15 -> node_20
+      [
+        arrowhead="normal"
+        label=""
+      ];
+    node_3 -> node_15
+      [
+        arrowhead="normal"
+        label=""
+      ];
+    node_22 -> node_5
+      [
+        arrowhead="normal"
+        label=""
+      ];
+    node_7 -> node_19
+      [
+        arrowhead="normal"
+        label=""
+      ];
+    node_0 -> node_10
+      [
+        arrowhead="normal"
+        label=""
+      ];
+    node_1 -> node_0
+      [
+        arrowhead="normal"
+        label=""
+      ];
+    node_15 -> node_4
+      [
+        arrowhead="normal"
+        label=""
+      ];
+    node_10 -> node_2
+      [
+        arrowhead="normal"
+        label=""
+      ];
+    node_21 -> node_2
+      [
+        arrowhead="normal"
+        label=""
+      ];
+    node_23 -> node_8
+      [
+        arrowhead="normal"
+        label=""
+      ];
+  }
+}

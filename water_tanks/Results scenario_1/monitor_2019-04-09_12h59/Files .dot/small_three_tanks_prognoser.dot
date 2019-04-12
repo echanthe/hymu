@@ -1,0 +1,803 @@
+digraph {
+  ratio=fill;
+  size="5.83,8.27!";
+ node [fontsize=16];
+  node [label="N", fillcolor="#FFFFFF", fontcolor="#000000", style=filled];
+  edge [style="solid"];
+  graph [splines="true", overlap="false"];
+  subgraph cluster_140110655563592 {
+    graph [
+      style="invis"
+    ];
+    node_2
+      [
+        style="dashed, filled"
+        fillcolor="#e6e6ff"
+        shape="circle"
+        fixedsize="shape"
+        color="#0000ff"
+        label="p₁₃"
+      ];
+    node_21
+      [
+        color="#ff8000"
+        fillcolor="#ff9933"
+        fixedsize="shape"
+        label="p₁₂"
+        shape="circle"
+      ];
+    node_3
+      [
+        style="dashed, filled"
+        fillcolor="#e6e6ff"
+        shape="circle"
+        fixedsize="shape"
+        color="#0000ff"
+        label="p₅"
+      ];
+    node_20
+      [
+        color="#00ff00"
+        fillcolor="#b3ffb3"
+        fixedsize="shape"
+        label="p₁"
+        shape="circle"
+      ];
+    node_26
+      [
+        label="t₁₀
+⟨ ⊥, ⊥, pₒ(f₄) > 0.9 ⟩"
+        shape="rectangle"
+      ];
+    node_28
+      [
+        label="t₅
+⟨ ⊥, ⊥, pₒ(f₁) > 0.9 ⟩"
+        shape="rectangle"
+      ];
+    node_1
+      [
+        style="dotted,filled"
+        fillcolor="#e6e6e6"
+        penwidth="1.5"
+        shape="circle"
+        fixedsize="shape"
+        color="#000000"
+        label="p₃"
+      ];
+    node_14
+      [
+        style="dotted,filled"
+        fillcolor="#e6e6e6"
+        penwidth="1.5"
+        shape="circle"
+        fixedsize="shape"
+        color="#000000"
+        label="p₁₁"
+      ];
+    node_23
+      [
+        style="dashed, filled"
+        fillcolor="#e6e6ff"
+        shape="circle"
+        fixedsize="shape"
+        color="#0000ff"
+        label="p₂"
+      ];
+    node_17
+      [
+        color="#ff8000"
+        fillcolor="#ff9933"
+        fixedsize="shape"
+        label="p₇"
+        shape="circle"
+      ];
+    node_4
+      [
+        label="t₂
+⟨ occ(ferm v₁₃), ⊤, ⊥ ⟩"
+        shape="rectangle"
+      ];
+    node_25
+      [
+        label="t₇
+⟨ ⊥, ⊥, pₒ(f₄) > 0.9 ⟩"
+        shape="rectangle"
+      ];
+    node_18
+      [
+        label="t₁
+⟨ occ(ferm v₁₃), ⊤, ⊥ ⟩"
+        shape="rectangle"
+      ];
+    node_19
+      [
+        color="#ff8000"
+        fillcolor="#ff9933"
+        fixedsize="shape"
+        label="p₁₄"
+        shape="circle"
+      ];
+    node_0
+      [
+        label="t₁₄
+⟨ ⊤, l₂ < 0.6, ⊥ ⟩"
+        shape="rectangle"
+      ];
+    node_13
+      [
+        label="t₃
+⟨ occ(ouvr v₁₃), ⊤, ⊥ ⟩"
+        shape="rectangle"
+      ];
+    node_29
+      [
+        style="dotted,filled"
+        fillcolor="#e6e6e6"
+        penwidth="1.5"
+        shape="circle"
+        fixedsize="shape"
+        color="#000000"
+        label="p₈"
+      ];
+    node_10
+      [
+        style="dotted,filled"
+        fillcolor="#e6e6e6"
+        penwidth="1.5"
+        shape="circle"
+        fixedsize="shape"
+        color="#000000"
+        label="p₆"
+      ];
+    node_30
+      [
+        style="filled, bold"
+        fontcolor="#ffffff"
+        fillcolor="#ff3333"
+        shape="circle"
+        fixedsize="shape"
+        color="#ff0000"
+        label="p₁₈"
+      ];
+    node_11
+      [
+        label="t₆
+⟨ ⊥, ⊥, pₒ(f₁) > 0.9 ⟩"
+        shape="rectangle"
+      ];
+    node_24
+      [
+        style="dashed, filled"
+        fillcolor="#e6e6ff"
+        shape="circle"
+        fixedsize="shape"
+        color="#0000ff"
+        label="p₁₀"
+      ];
+    node_8
+      [
+        label="t₄
+⟨ occ(ouvr v₁₃), ⊤, ⊥ ⟩"
+        shape="rectangle"
+      ];
+    node_12
+      [
+        label="t₈
+⟨ ⊥, ⊥, pₒ(f₄) > 0.9 ⟩"
+        shape="rectangle"
+      ];
+    node_6
+      [
+        color="#ff8000"
+        fillcolor="#ff9933"
+        fixedsize="shape"
+        label="p₉"
+        shape="circle"
+      ];
+    node_16
+      [
+        style="filled, bold"
+        fontcolor="#ffffff"
+        fillcolor="#ff3333"
+        shape="circle"
+        fixedsize="shape"
+        color="#ff0000"
+        label="p₁₉"
+      ];
+    node_32
+      [
+        style="filled, bold"
+        fontcolor="#ffffff"
+        fillcolor="#ff3333"
+        shape="circle"
+        fixedsize="shape"
+        color="#ff0000"
+        label="p₁₆"
+      ];
+    node_22
+      [
+        style="dotted,filled"
+        fillcolor="#e6e6e6"
+        penwidth="1.5"
+        shape="circle"
+        fixedsize="shape"
+        color="#000000"
+        label="p₁₅"
+      ];
+    node_31
+      [
+        label="t₁₁
+⟨ ⊤, l₂ < 0.6, ⊥ ⟩"
+        shape="rectangle"
+      ];
+    node_7
+      [
+        label="t₉
+⟨ ⊥, ⊥, pₒ(f₄) > 0.9 ⟩"
+        shape="rectangle"
+      ];
+    node_15
+      [
+        style="filled, bold"
+        fontcolor="#ffffff"
+        fillcolor="#ff3333"
+        shape="circle"
+        fixedsize="shape"
+        color="#ff0000"
+        label="p₁₇"
+      ];
+    node_9
+      [
+        label="t₁₃
+⟨ ⊤, l₂ < 0.6, ⊥ ⟩"
+        shape="rectangle"
+      ];
+    node_5
+      [
+        color="#00ff00"
+        fillcolor="#b3ffb3"
+        fixedsize="shape"
+        label="p₄"
+        shape="circle"
+      ];
+    node_27
+      [
+        label="t₁₂
+⟨ ⊤, l₂ < 0.6, ⊥ ⟩"
+        shape="rectangle"
+      ];
+    node_12 -> node_29
+      [
+        style="dotted"
+        arrowhead="normal"
+        label=""
+        color="#000000"
+      ];
+    node_2 -> node_26
+      [
+        style="dashed"
+        arrowhead="normal"
+        label=""
+        color="#0000ff"
+      ];
+    node_28 -> node_6
+      [
+        arrowhead="normal"
+        label=""
+      ];
+    node_2 -> node_27
+      [
+        style="dashed"
+        arrowhead="normal"
+        label=""
+        color="#0000ff"
+      ];
+    node_12 -> node_3
+      [
+        style="dashed"
+        arrowhead="normal"
+        label=""
+        color="#0000ff"
+      ];
+    node_23 -> node_18
+      [
+        style="dashed"
+        arrowhead="normal"
+        label=""
+        color="#0000ff"
+      ];
+    node_7 -> node_19
+      [
+        arrowhead="normal"
+        label=""
+      ];
+    node_25 -> node_17
+      [
+        arrowhead="normal"
+        label=""
+      ];
+    node_18 -> node_10
+      [
+        style="dotted"
+        arrowhead="normal"
+        label=""
+        color="#000000"
+      ];
+    node_6 -> node_31
+      [
+        arrowhead="normal"
+        label=""
+      ];
+    node_26 -> node_2
+      [
+        style="dashed"
+        arrowhead="normal"
+        label=""
+        color="#0000ff"
+      ];
+    node_7 -> node_22
+      [
+        style="dotted"
+        arrowhead="normal"
+        label=""
+        color="#000000"
+      ];
+    node_21 -> node_26
+      [
+        arrowhead="normal"
+        label=""
+      ];
+    node_8 -> node_6
+      [
+        arrowhead="normal"
+        label=""
+      ];
+    node_17 -> node_9
+      [
+        arrowhead="normal"
+        label=""
+      ];
+    node_10 -> node_11
+      [
+        style="dotted"
+        arrowhead="normal"
+        label=""
+        color="#000000"
+      ];
+    node_14 -> node_8
+      [
+        style="dotted"
+        arrowhead="normal"
+        label=""
+        color="#000000"
+      ];
+    node_14 -> node_7
+      [
+        style="dotted"
+        arrowhead="normal"
+        label=""
+        color="#000000"
+      ];
+    node_1 -> node_28
+      [
+        style="dotted"
+        arrowhead="normal"
+        label=""
+        color="#000000"
+      ];
+    node_6 -> node_7
+      [
+        arrowhead="normal"
+        label=""
+      ];
+    node_5 -> node_12
+      [
+        arrowhead="normal"
+        label=""
+      ];
+    node_28 -> node_14
+      [
+        style="dotted"
+        arrowhead="normal"
+        label=""
+        color="#000000"
+      ];
+    node_11 -> node_14
+      [
+        style="dotted"
+        arrowhead="normal"
+        label=""
+        color="#000000"
+      ];
+    node_3 -> node_13
+      [
+        style="dashed"
+        arrowhead="normal"
+        label=""
+        color="#0000ff"
+      ];
+    node_26 -> node_19
+      [
+        arrowhead="normal"
+        label=""
+      ];
+    node_28 -> node_24
+      [
+        style="dashed"
+        arrowhead="normal"
+        label=""
+        color="#0000ff"
+      ];
+    node_21 -> node_27
+      [
+        arrowhead="normal"
+        label=""
+      ];
+    node_2 -> node_8
+      [
+        style="dashed"
+        arrowhead="normal"
+        label=""
+        color="#0000ff"
+      ];
+    node_3 -> node_12
+      [
+        style="dashed"
+        arrowhead="normal"
+        label=""
+        color="#0000ff"
+      ];
+    node_27 -> node_14
+      [
+        style="dotted"
+        arrowhead="normal"
+        label=""
+        color="#000000"
+      ];
+    node_1 -> node_25
+      [
+        style="dotted"
+        arrowhead="normal"
+        label=""
+        color="#000000"
+      ];
+    node_10 -> node_12
+      [
+        style="dotted"
+        arrowhead="normal"
+        label=""
+        color="#000000"
+      ];
+    node_9 -> node_32
+      [
+        arrowhead="normal"
+        label=""
+      ];
+    node_4 -> node_14
+      [
+        style="dotted"
+        arrowhead="normal"
+        label=""
+        color="#000000"
+      ];
+    node_7 -> node_2
+      [
+        style="dashed"
+        arrowhead="normal"
+        label=""
+        color="#0000ff"
+      ];
+    node_10 -> node_13
+      [
+        style="dotted"
+        arrowhead="normal"
+        label=""
+        color="#000000"
+      ];
+    node_18 -> node_5
+      [
+        arrowhead="normal"
+        label=""
+      ];
+    node_14 -> node_27
+      [
+        style="dotted"
+        arrowhead="normal"
+        label=""
+        color="#000000"
+      ];
+    node_13 -> node_1
+      [
+        style="dotted"
+        arrowhead="normal"
+        label=""
+        color="#000000"
+      ];
+    node_27 -> node_16
+      [
+        arrowhead="normal"
+        label=""
+      ];
+    node_21 -> node_8
+      [
+        arrowhead="normal"
+        label=""
+      ];
+    node_1 -> node_18
+      [
+        style="dotted"
+        arrowhead="normal"
+        label=""
+        color="#000000"
+      ];
+    node_5 -> node_11
+      [
+        arrowhead="normal"
+        label=""
+      ];
+    node_23 -> node_28
+      [
+        style="dashed"
+        arrowhead="normal"
+        label=""
+        color="#0000ff"
+      ];
+    node_22 -> node_0
+      [
+        style="dotted"
+        arrowhead="normal"
+        label=""
+        color="#000000"
+      ];
+    node_27 -> node_2
+      [
+        style="dashed"
+        arrowhead="normal"
+        label=""
+        color="#0000ff"
+      ];
+    node_24 -> node_31
+      [
+        style="dashed"
+        arrowhead="normal"
+        label=""
+        color="#0000ff"
+      ];
+    node_20 -> node_25
+      [
+        arrowhead="normal"
+        label=""
+      ];
+    node_4 -> node_2
+      [
+        style="dashed"
+        arrowhead="normal"
+        label=""
+        color="#0000ff"
+      ];
+    node_8 -> node_14
+      [
+        style="dotted"
+        arrowhead="normal"
+        label=""
+        color="#000000"
+      ];
+    node_4 -> node_21
+      [
+        arrowhead="normal"
+        label=""
+      ];
+    node_9 -> node_3
+      [
+        style="dashed"
+        arrowhead="normal"
+        label=""
+        color="#0000ff"
+      ];
+    node_11 -> node_2
+      [
+        style="dashed"
+        arrowhead="normal"
+        label=""
+        color="#0000ff"
+      ];
+    node_14 -> node_26
+      [
+        style="dotted"
+        arrowhead="normal"
+        label=""
+        color="#000000"
+      ];
+    node_25 -> node_3
+      [
+        style="dashed"
+        arrowhead="normal"
+        label=""
+        color="#0000ff"
+      ];
+    node_24 -> node_7
+      [
+        style="dashed"
+        arrowhead="normal"
+        label=""
+        color="#0000ff"
+      ];
+    node_31 -> node_30
+      [
+        arrowhead="normal"
+        label=""
+      ];
+    node_2 -> node_0
+      [
+        style="dashed"
+        arrowhead="normal"
+        label=""
+        color="#0000ff"
+      ];
+    node_26 -> node_22
+      [
+        style="dotted"
+        arrowhead="normal"
+        label=""
+        color="#000000"
+      ];
+    node_31 -> node_14
+      [
+        style="dotted"
+        arrowhead="normal"
+        label=""
+        color="#000000"
+      ];
+    node_18 -> node_3
+      [
+        style="dashed"
+        arrowhead="normal"
+        label=""
+        color="#0000ff"
+      ];
+    node_6 -> node_4
+      [
+        arrowhead="normal"
+        label=""
+      ];
+    node_14 -> node_31
+      [
+        style="dotted"
+        arrowhead="normal"
+        label=""
+        color="#000000"
+      ];
+    node_14 -> node_4
+      [
+        style="dotted"
+        arrowhead="normal"
+        label=""
+        color="#000000"
+      ];
+    node_11 -> node_21
+      [
+        arrowhead="normal"
+        label=""
+      ];
+    node_5 -> node_13
+      [
+        arrowhead="normal"
+        label=""
+      ];
+    node_24 -> node_4
+      [
+        style="dashed"
+        arrowhead="normal"
+        label=""
+        color="#0000ff"
+      ];
+    node_20 -> node_18
+      [
+        arrowhead="normal"
+        label=""
+      ];
+    node_19 -> node_0
+      [
+        arrowhead="normal"
+        label=""
+      ];
+    node_0 -> node_22
+      [
+        style="dotted"
+        arrowhead="normal"
+        label=""
+        color="#000000"
+      ];
+    node_31 -> node_24
+      [
+        style="dashed"
+        arrowhead="normal"
+        label=""
+        color="#0000ff"
+      ];
+    node_23 -> node_25
+      [
+        style="dashed"
+        arrowhead="normal"
+        label=""
+        color="#0000ff"
+      ];
+    node_3 -> node_11
+      [
+        style="dashed"
+        arrowhead="normal"
+        label=""
+        color="#0000ff"
+      ];
+    node_25 -> node_29
+      [
+        style="dotted"
+        arrowhead="normal"
+        label=""
+        color="#000000"
+      ];
+    node_9 -> node_29
+      [
+        style="dotted"
+        arrowhead="normal"
+        label=""
+        color="#000000"
+      ];
+    node_0 -> node_2
+      [
+        style="dashed"
+        arrowhead="normal"
+        label=""
+        color="#0000ff"
+      ];
+    node_3 -> node_9
+      [
+        style="dashed"
+        arrowhead="normal"
+        label=""
+        color="#0000ff"
+      ];
+    node_13 -> node_23
+      [
+        style="dashed"
+        arrowhead="normal"
+        label=""
+        color="#0000ff"
+      ];
+    node_13 -> node_20
+      [
+        arrowhead="normal"
+        label=""
+      ];
+    node_12 -> node_17
+      [
+        arrowhead="normal"
+        label=""
+      ];
+    node_0 -> node_15
+      [
+        arrowhead="normal"
+        label=""
+      ];
+    node_8 -> node_24
+      [
+        style="dashed"
+        arrowhead="normal"
+        label=""
+        color="#0000ff"
+      ];
+    node_20 -> node_28
+      [
+        arrowhead="normal"
+        label=""
+      ];
+    node_29 -> node_9
+      [
+        style="dotted"
+        arrowhead="normal"
+        label=""
+        color="#000000"
+      ];
+  }
+}
