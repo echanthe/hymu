@@ -12,7 +12,7 @@ import imp
 import sys
 import shutil
 from optparse import OptionParser
-sys.path.append('./Sources/')
+sys.path.append('./sources/')
 from multimode import Multimode
 from PIL import Image
 import scenario
