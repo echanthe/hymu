@@ -73,6 +73,7 @@ def model(name, config):
         return dh
     de = de_gen(f)
     d1 = StateSpaceRepresentation(de, oe, dn, on)
+    d1.name = 'd1'
 
     # d2
     def f(x,t,u):
@@ -84,6 +85,7 @@ def model(name, config):
         return dh
     de = de_gen(f)
     d2 = StateSpaceRepresentation(de, oe, dn, on)
+    d2.name = 'd2'
         
     # d1f1
     def f(x,t,u):
@@ -95,6 +97,7 @@ def model(name, config):
         return dh
     de = de_gen(f)
     d1f1 = StateSpaceRepresentation(de, oe, dn, on)
+    d1f1.name = 'd1f1'
 
     # d2f1
     def f(x,t,u):
@@ -106,6 +109,7 @@ def model(name, config):
         return dh
     de = de_gen(f)
     d2f1 = StateSpaceRepresentation(de, oe, dn, on)
+    d2f1.name = 'd2f1'
 
     ###
     ### degradation
@@ -135,25 +139,31 @@ def model(name, config):
     ea, eb, ec, e13, e32 = 100000, 80000, 60000, 30000000, 30000000
     scales = np.array([ea, ea, ea, e13, e32])
     deg1 = StateSpaceRepresentation(de_gen(scales))
+    deg1.name ='deg1'
 
     # deg2: nom2, d2
     scales = np.array([ec, ea, ea, e13, e32])
     deg2 = StateSpaceRepresentation(de_gen(scales))
+    deg2.name = 'deg2'
     
     # deg3: 12f4, d2
     scales = np.array([ec, ea, ea, 0, e32])
     deg3 = StateSpaceRepresentation(de_gen(scales))
+    deg3.name = 'deg3'
     
     # deg4: 1f1, d1f1
     scales = np.array([0, ea, ea, e13, e32])
     deg4 = StateSpaceRepresentation(de_gen(scales))
+    deg4.name = 'deg4'
     
     # deg5: 2f1, d2f1 = deg4
     deg5 = deg4
+    deg5.name = 'deg5'
 
     # deg56: 12f1f4, d2f1
     scales = np.array([0, ea, ea, 0, e32])
     deg6 = StateSpaceRepresentation(de_gen(scales))
+    deg6.name = 'deg6'
     
 
     ###
