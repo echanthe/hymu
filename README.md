@@ -1,8 +1,8 @@
 # HyMu
-TODO : description of HyMU
+HyMU: a software for Hybrid Systems Health Monitoring under Uncertainty
 
 ## Useful links 
-TODO
+https://dx-workshop.org/2019/wp-content/uploads/2019/papers/DX_2019_paper_1.pdf
 
 ## Copyright/Licence
 (c) 2013-2019 Quentin Gaudel 
